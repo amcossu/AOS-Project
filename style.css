@@ -1,14 +1,15 @@
-* {
-  box-sizing: border-box;
-}
 
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .item {
   width: 400px;
   height: 400px;
   margin: 50px auto;
   padding-top: 75px;
   background: #721651;
-  text-align: center;
   color: #FFF;
   font-size: 3em;
 }
